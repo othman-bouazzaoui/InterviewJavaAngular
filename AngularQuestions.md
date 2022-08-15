@@ -81,7 +81,9 @@ Pour partager la logique sur plusieurs components, par exemple les données des 
 > 8 - ngOnDestroy. <br>
 
 ## - C'est quoi Angular pipes ?
-- sont des classes avec décoration @pipe, qui transforme l'entrée en sortie selon la logique donnée.
+> sont des classes avec décoration @pipe, qui transforme l'entrée en sortie selon la logique donnée : 
+### - pipe pure : appeler lorsque angular détécte un changement dans la valeur ou les paramétres passé au pipe.
+### - pipe impure : est appelé pour chaque cycle de détection de changement, que la valeur ou le(s) paramètre(s) change(nt), plus précisement lorsque Angular n'arrive pas à détécter les changement.
 
 ## - C'est quoi JIT - Just-in-Time (Développement) ?
 - la compilation des templates se faite au niveau de navigateurs. Le mode par défaut quand on exécute "ng serve" ou "ng build".

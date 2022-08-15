@@ -37,4 +37,4 @@ Les principes SOLID sont les suivants :
 
 # ségrégation des interfaces ;
 
-# inversion des dépendances.
+#  inversion des dépendances.
