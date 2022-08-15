@@ -12,7 +12,11 @@
 
 [ Spring & Spring Boot](/SpringQuestions.md)
 
-[ AOP ](/AOP.md)
+[ Spring Boot ](/Spring%20Boot%20Questions.md)
+
+[ Spring AOP ](/Spring%20AOP%20Questions.md)
+
+[ Spring Batch ](/Spring%20Batch%20Questions.md)
 
 [ Principe Solid ](/PrincipeSOLID.md)
 
