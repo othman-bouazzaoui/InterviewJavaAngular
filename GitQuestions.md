@@ -16,6 +16,7 @@ github/gitlab represent les serveurs qui support cette technologie(git), qui nou
 * `git commit :>` permet de créer une version/commit du code.
 * `git push :>` permet de pousser le code depuis une branch/repo local vers la branch/repo distante.
 * `git pull :>`  permet de mettre à jour une branche en local par les modifications dans la branche equivalente en repo distant
+* `git fetch :>`  permet de recupèrer les branche distantes à jour
 
 * `git checkout :>` permet de switcher d'une branche vers une autre avec la création d'une branche si on ajoute l'option -b
 * `git branch branch_Name: >` permet creer une branche.
@@ -29,6 +30,7 @@ github/gitlab represent les serveurs qui support cette technologie(git), qui nou
 * `git revert commmit_Id :> ` permet de faire un revert/annuler d'un commit.
 * `git revet commit_id :>` permet de remmetre l'état de la branche vers ce commit(comme un point de restauration).
 * `git tag tag_name:>` permet de tagger/créer une d'une branche, il est très utilisé dans les cas où on travaille en mode agil à chaque fois qu'on livre une fiche(s), on doit tagger la version.
+* `git log --pretty=format:"%aI %t %s":>` permet de d'afficher la liste des commits(historique) .
 
 
 ## - c'est quoi la différence entre git merge et git rebase ?
