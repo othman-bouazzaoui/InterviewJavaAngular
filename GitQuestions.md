@@ -28,15 +28,15 @@ github/gitlab represent les serveurs qui support cette technologie(git), qui nou
 * `git rebase master :>` permet de faire un rebase sur branche pour qu'elle soit la branche de base.
 * `git cherry-pick :> ` permet de prendre un commit depuis une branche et l'intérger dans une autre branche d'une manière intélligente(bien sûr le commit ne sera pas supprimer de la première).
 * `git revert commmit_Id :> ` permet de faire un revert/annuler d'un commit.
-* `git revet commit_id :>` permet de remmetre l'état de la branche vers ce commit(comme un point de restauration).
-* `git tag tag_name:>` permet de tagger/créer une d'une branche, il est très utilisé dans les cas où on travaille en mode agil à chaque fois qu'on livre une fiche(s), on doit tagger la version.
-* `git log --pretty=format:"%aI %t %s":>` permet de d'afficher la liste des commits(historique) .
+* `git revet commit_id :>` permet de remmetre l'état de la branche vers ce commit(comme un point de restauration).  
+* `git tag tag_name:>` permet de tagger/créer une d'une branche, il est très utilisé dans les cas où on travaille en mode agil à chaque fois qu'on livre une fiche(s), on doit tagger la version.  
+* ` git reset =>` permet de remmetre l'état de la branche vers ce commit(attention perte de l'historique)  
+* `git log --pretty=format:"%aI %t %s":>` permet d'afficher la liste des commits(historique) .  
+* `git diff branch_name :>` permet d'afficher la différence entre la branche actuel et la branche souhaitée comparé .  
+* `git diff branch_name --raw :>` permet d'afficher les noms des fichiers modifiés.  
 
 
 ## - c'est quoi la différence entre git merge et git rebase ?
->> les 2 font la mêmes choses avec des manières différents
+>> les 2 commandes font la mêmes choses avec des manières différents
 * `git merge :` garde une traçabilité, les commits ne seront plus stillé.
 * `git rebsae :` ne garde pas une traçabilité, les commits reste stillé et ordonné(mais attention, il faut être prudant, cette action peut casser tous)
-
-
-
